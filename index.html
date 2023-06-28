@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İsa Budak | Presentation</title>
+    <meta name="keywords" content="landing page, css">
+    <meta name="description" content="İsa Budak | Presentation">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+        <nav id="navbar" >
+            <h1 class="text-center" style="user-select: none;">İsa Budak</h1>
+            <ul>
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#training">Eğitimler</a></li>
+                <li><a href="#courses">Kurslar</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <section id="home">
+        <img src="images/IMG_20220522_090116_203.jpg"
+        alt="İsa Budak"
+        title="İsa" style="width: 300px; height: 300px;">
+
+        <div class="name">
+        <h2 class="header-big">İsa Budak</h2>
+        <p>Student of Programming | Front end</p>
+        </div>
+
+        <a href="#courses">Kurslara Git</a>
+        
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center header-medium">Eğitimler</h3>
+
+        <div class="items">
+
+        <article class="item">
+            <i class="fa fa-pencil"></i>
+            <h3>Sınıf İçi Eğitimler</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio!</p>
+        </article>
+
+
+        
+        <article class="item">
+            <i class="fa fa-pencil"></i>
+            <h3>Online İçerikler</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio!</p>
+        </article>
+
+
+        
+        <article class="item">
+            <i class="fa fa-pencil"></i>
+            <h3>Özel Eğitim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio!</p>
+
+        </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center header-medium">Kurslar</h3>
+
+        <div class="container">
+            <div class="courses">
+
+                                <!-- Course 1 -->
+                <div class="course">
+                    <div class="course-image">
+                    <img src="images/python-programming-language.png" alt="" style="width:250px">
+                    <span>Hemen Başla</span>
+                    </div>
+                          <div class="course-info">
+                    <div class="title">Python'da 0'dan Uzmalığa</div>
+                    <div class="description">Temel düzeyden Uzmanlığa kadarki yolunuzda yardımcınızız</div>
+                    <div class="instructor">İsa Budak, Front-End Dev, Yazılım Bilimi</div>
+                    <div class="rating">4.7 | (2968 Yorumlama)</div>
+                           </div>
+                </div>
+
+                                <!-- Course 2 -->
+
+                <div class="course">
+                    <div class="course-image">
+                    <img src="images/csharp.png" alt="" style="width:250px">
+                    <span>Hemen Başla</span>
+                    </div>
+                          <div class="course-info">
+                    <div class="title">C#'da 0'dan Uzmalığa</div>
+                    <div class="description">Temel düzeyden Uzmanlığa kadarki yolunuzda yardımcınızız</div>
+                    <div class="instructor">İsa Budak, Front-End Dev, Yazılım Bilimi</div>
+                    <div class="rating">4.5 | (1868 Yorumlama)</div>
+                           </div>
+                </div>
+
+                                <!-- Course 3 -->
+
+                <div class="course">
+                    <div class="course-image">
+                    <img src="images/htmlcssjs-overview.png" alt="" style="width:250px">
+                    <span>Hemen Başla</span>
+                    </div>
+                          <div class="course-info">
+                    <div class="title">Front-end'de 0'dan Uzmalığa</div>
+                    <div class="description">Temel düzeyden Uzmanlığa kadarki yolunuzda yardımcınızız</div>
+                    <div class="instructor">İsa Budak, Front-End Dev, Yazılım Bilimi</div>
+                    <div class="rating">4.8 | (3468 Yorumlama)</div>
+                           </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        
+        <div class="contact-form">
+            <form action="#">
+                <h4 class="text-center header-medium">Bize Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="isim" id="name" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="email">e-Mail</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="e-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea type="message" class="form-control" name="message" id="message" rows="5" placeholder="Mesajınız"></textarea>
+                </div>
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
